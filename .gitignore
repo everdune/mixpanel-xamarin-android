@@ -190,3 +190,5 @@ ModelManifest.xml
 *.nupkg
 *.DS_Store
 *.userprefs
+
+.vs/
