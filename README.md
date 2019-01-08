@@ -85,3 +85,20 @@ Compile in release mode both libs using the help above. Make sure the DLL from t
 Open pack.bat, and update the version number. Open Vapolia.Mixpanel.nuspec then add release notes for this version. Then on an elevated command prompt:
 
 	pack.bat
+
+
+## Android v5.4.4
+
+Applied following change to `build.gradle` of `mixpanel-android` to get it compiled:
+
+
+	--- a/build.gradle
+	+++ b/build.gradle
+	@@ -3,7 +3,7 @@ buildscript {
+			jcenter()
+		}
+		dependencies {
+	-		classpath 'com.android.tools.build:gradle:2.2.3'
+	+		classpath 'com.android.tools.build:gradle:2.3.3'
+		}
+	}
